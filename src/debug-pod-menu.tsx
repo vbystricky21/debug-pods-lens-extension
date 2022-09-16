@@ -155,10 +155,6 @@ export class DebugPodToolsMenu extends React.Component<DebugPodToolsMenuProps> {
         <>
           <Icon className="arrow" material="keyboard_arrow_right"/>
           <SubMenu>
-            <MenuItem key={"deployAndRunDebugPod"} onClick={Util.prevDefault(() => this.createDebugPodAndRun())} className="flex align-center">
-              <span>Run as debug pod</span>
-              {this.renderAllImagesDebug()}
-            </MenuItem>
             {containers.length > 0 && Renderer.Catalog.catalogEntities.activeEntity && DebugPodPreferencesStore.getInstance().ephemeralContainersEnabled.indexOf(Renderer.Catalog.catalogEntities.activeEntity.getName()) > -1 && (
               <MenuItem key={"attachAndRunDebugContainer"} onClick={Util.prevDefault(() => this.attachAndRunDebugContainer(containers[0].name))} className="flex align-center">
                 <span>Run as emepheral container</span>

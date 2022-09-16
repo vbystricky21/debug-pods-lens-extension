@@ -12,8 +12,7 @@ The menu includes the next subitems:
 
 | SubItem | Description |
 | ------ | ------ |
-| Run as debug pod | Creates and runs new Pod based on <debug image> with <current_pod>_debug name and placed on the same node/namespace. The Pod is deleted automatically after session closing
-| Run as ephemeral image | Attaches and runs ephemeral image to the selected Pod. If the Pod contains 2+ containers you can select which will be linked with an ephemeral container. Warning! Be sure that the current cluster supports this feature
+| Run as ephemeral image | Attaches and runs ephemeral image to the selected Pod. If the Pod contains 2+ containers you can select which will be linked with an ephemeral container.
 
 ### configuration
 The extension adds 3 parameters in File -> Preferences
