@@ -41,4 +41,4 @@ or
 Press CTRL+SHIFT+E on Lens, paste the url and click on Install button: </br>
 lens 4: https://github.com/pashevskii/debug-pods-lens-extension/releases/download/0.1.2/lens-debug-tools-0.1.2.tgz </br>
 lens 5: https://github.com/pashevskii/debug-pods-lens-extension/releases/download/0.1.3/lens-debug-tools-0.1.3.tgz </br>
-lens 6: https://github.com/vbystricky21/debug-pods-lens-extension/releases/download/0.1.4/lens-debug-tools.tgz  </br>
+lens 6: https://github.com/vbystricky21/debug-pods-lens-extension/releases/download/0.1.4/lens-debug-tools-0.1.4.tgz </br>
