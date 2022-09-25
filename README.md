@@ -21,7 +21,7 @@ Debug Image: default image, which will be used for ephemeral containers and debu
 | ------ | ------ | ------|
 | busybox | Default value | https://hub.docker.com/_/busybox |
 | markeijsermans/debug |  | https://hub.docker.com/r/markeijsermans/debug |
-| wbitt/network-multitool | https://github.com/wbitt/Network-MultiTool |
+| wbitt/network-multitool | | https://github.com/wbitt/Network-MultiTool |
 
 Show all debug images in context menu: shows all debug images as context menu for operation
 
